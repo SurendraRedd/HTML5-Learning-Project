@@ -1,0 +1,34 @@
+.home
+{
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid red;
+
+}
+
+header
+{
+    width: 100%;
+}
+
+#logo
+{
+    width:15%;
+    float:left;
+}
+
+#banner
+{
+    width:55%;
+    margin-left:25%;
+}
+
+#logo img
+{
+    width: 100%;
+}
+
+#banner img
+{
+    width: 100%;
+}
