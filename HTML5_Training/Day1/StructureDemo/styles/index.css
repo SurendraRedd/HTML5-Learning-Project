@@ -1,8 +1,10 @@
+/* In Css all classes will be starts with . and id will be started as #*/
+
 .home
 {
     width: 80%;
     margin-left: 10%;
-    border: 2px solid red;
+    /*border: 1px solid darkblue;*/
 
 }
 
@@ -31,4 +33,34 @@ header
 #banner img
 {
     width: 100%;
+}
+
+menu
+{
+    width:100%;
+    /*border: 1px solid green;*/
+    margin-left:20%;
+    margin-top:2%
+}
+
+menu ul li
+{
+    display: inline;
+    list-style: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    margin-right: 8%;
+}
+
+menu ul li:hover
+{
+    background-color: black;
+    color:greenyellow;
+}
+
+menu ul li a
+{
+    text-decoration: none;
+    color:brown;
 }
