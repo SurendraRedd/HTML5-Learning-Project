@@ -1,0 +1,62 @@
+.content
+{
+    width:100%
+}
+
+.content figure
+{
+    width: 35%;
+    height:300px;
+    float:left;
+}
+
+#regForm
+{
+    width:40%;
+    margin-left: 45%;
+    margin-top: 5%;
+
+}
+
+#regForm fieldset
+{
+    width: 100%;
+    border:4px double green;
+    border-radius: 50px 50px 50px 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#regForm fieldset legend
+{
+    text-align:center;
+}
+
+#regForm fieldset input, textarea
+{
+    margin-left: 15%;
+    width: 70%;
+    margin-botton:3%;
+}
+
+#regForm fieldset input[type=submit]
+{
+    margin-left: 25%;
+    width: 40%;
+    color:white;
+    background-color: green;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#regForm textarea
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-botton:3%;
+}
+
+#regForm fieldset input[type=radio]
+{
+    margin-left: 15%;
+    width: 10%;
+}

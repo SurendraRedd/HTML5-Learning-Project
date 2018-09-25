@@ -1,0 +1,134 @@
+/* In Css all classes will be starts with . and id will be started as #*/
+
+.home
+{
+    width: 80%;
+    margin-left: 10%;
+    /*border: 1px solid darkblue;*/
+
+}
+
+header
+{
+    width: 100%;
+}
+
+#logo
+{
+    width:15%;
+    float:left;
+}
+
+#banner
+{
+    width:55%;
+    margin-left:25%;
+}
+
+#logo img
+{
+    width: 100%;
+}
+
+#banner img
+{
+    width: 100%;
+}
+
+menu
+{
+    width:100%;
+    /*border: 1px solid green;*/
+    margin-left:20%;
+    margin-top:2%
+}
+
+menu ul li
+{
+    display: inline;
+    list-style: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    margin-right: 3%;
+}
+
+menu ul li:hover
+{
+    background-color: black;
+    color:greenyellow;
+}
+
+menu ul li a
+{
+    text-decoration: none;
+    color:brown;
+}
+
+.content
+{
+    width:100%
+}
+
+#news
+{
+    width:100%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+#news P
+{
+    text-align: justify;
+    font-size:medium;
+    font-weight: bold;
+    column-count:3;
+    column-gap: 15px;
+    column-rule: 5px dotted red;
+}
+
+#news P:first-letter
+{
+    font-size: xx-large;
+    color:green;
+}
+
+#aboutUs
+{
+    width:100%;
+    border: 3px double black;
+}
+
+#aboutUs figure
+{
+    width:25%;
+    float:left;
+}
+
+#aboutUs figure img
+{
+    width:50%;
+}
+
+#aboutUs p
+{
+    width: 40%;
+    margin-left:40%;
+    text-align:justify;
+}
+
+#news header h4
+{
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Lucida Calligraphy";
+}
+
+#news footer h4
+{
+    color:black;
+    font-size: small;
+    font-weight: bold;
+    font-family: "Lucida Calligraphy";
+}

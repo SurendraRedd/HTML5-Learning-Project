@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="styles/register.css">
+    <script type="text/javascript"
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDnCmx6XW6zNRAIaXIqkN8dlYElsSDNLjI&callback=initMap">
+    </script>
+    <script type="text/javascript" src="scripts/register.js"></script>
+
+</head>
+<body>
+
+
+<section class="content">
+
+    <figure id="maparea">
+
+    </figure>
+
+    <form id="regForm">
+        <fieldset>
+            <legend> Customer Form</legend>
+            <input type="text" id="firstName" placeholder="First Name" pattern="[A-Za-z]{5,25}" required>
+            <input type="text" id="lastName" placeholder="Last Name" pattern="[A-Za-z]{5,25}" required>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="FeMale"> Female
+            <input type="date" id="dob" placeholder="DOB" required>
+            <input type="email" id="email" placeholder="email" required>
+
+            <textarea rows="3" required placeholder="address" id="address">
+
+        </textarea>
+            <input type="text" id="country" list="countryList">
+            <input type="file" id="photo" placeholder="Profile Photo" multiple>
+
+            <input type="button" id="submit" value="submit">
+        </fieldset>
+
+
+
+    </form>
+
+</section>
+
+
+
+
+
+<datalist id="countryList">
+
+    <option> India </option>
+    <option> England </option>
+    <option> USR </option>
+    <option> Europe </option>
+    <option> USA </option>
+
+
+
+</datalist>
+
+
+
+</body>
+</html>
